@@ -1,0 +1,63 @@
+/* Set the background image */
+body {
+  background-image: url('https://i.imgur.com/7cLXYF7.jpeg');
+  background-size: cover;  /* Ensures the image covers the entire screen */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-position: center center;  /* Centers the image */
+  background-attachment: fixed;  /* Keeps the background fixed when scrolling */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white; /* Makes text readable against dark background */
+  height: 100vh; /* Ensure body covers the full viewport height */
+}
+
+/* Container adjustments */
+#quiz-container {
+  width: 300px;
+  margin: 100px auto; /* Add some space from the top */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Text adjustments */
+h2, h3 {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Button styling */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Styling the result container */
+#result-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#feedback {
+  font-size: 18px;
+  color: #ffeb3b; /* Yellow for emphasis */
+}
